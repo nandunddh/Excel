@@ -43,11 +43,16 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import GoogleSheetReader from './GoogleSheetReader';
+import DataTable from './DataTable';
+import ExcelToJsonExample from './ExcelToJsonExample';
+
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <GoogleSheetReader />
+      {/* <GoogleSheetReader /> */}
+      {/* <DataTable /> */}
+      <ExcelToJsonExample />
     </View>
   );
 };
@@ -55,8 +60,8 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    // justifyContent: 'center',
+    // alignItems: 'center',
   },
 });
 
