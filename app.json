@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "ExcelReaderApp",
+    "slug": "ExcelReaderApp",
+    "android": {
+      "permissions": ["READ_EXTERNAL_STORAGE"]
+    },
+    "plugins": ["expo-document-picker"]
+  }
+}
